@@ -1,0 +1,55 @@
+/* element */
+body{
+    margin: 0;
+    text-align: center;
+    font-family: monospace;
+}
+button{
+    width: 100px;
+    height: 100px;
+    margin: 0 50px;
+    background-color:rgba(0, 230, 230, 0.685);
+    border: 3px solid black;
+    border-radius: 10px;
+}
+button:hover{
+    background-color:rgba(93, 255, 255, 0.685);
+    border: 3px solid rgb(36, 36, 36);
+    cursor: pointer;
+}
+/* id */
+#scoreCardContainer{
+    display: flex;
+    justify-content: space-around;
+}
+#selectionContainer{
+    margin: 80px;
+}
+#humanScoreCard{
+    background-color: green;
+}
+#computerScoreCard{
+    background-color: maroon;
+}
+#tiedCard{
+    background-color: rgba(230, 176, 0, 0.685);
+}
+#resetButton{
+    background-color: red;
+    opacity:0.9;
+    width: 500px;
+    height: 300px;
+    font-size: 60px;
+}
+/* class */
+.scoreCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+}
+.score{
+    font-size: 36px;
+}
